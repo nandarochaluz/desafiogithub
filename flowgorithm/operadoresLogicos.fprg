@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Fernanda Rocha"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-10 01:00:25 "/>
+        <attribute name="created" value="RmVybmFuZGEgUm9jaGE7REVTS1RPUC1NNVJFNjFCOzIwMjItMDQtMTA7IjEyOjUzOjU0ICI7MzU0Mw=="/>
+        <attribute name="edited" value="RmVybmFuZGEgUm9jaGE7REVTS1RPUC1NNVJFNjFCOzIwMjItMDQtMTA7IjAxOjAwOjI1ICI7MjszNjQw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="1"/>
+            <assign variable="b" expression="1"/>
+            <assign variable="c" expression="3"/>
+            <output expression="a=b" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

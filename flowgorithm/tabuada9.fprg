@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Fernanda Rocha"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-10 02:29:13 "/>
+        <attribute name="created" value="RmVybmFuZGEgUm9jaGE7REVTS1RPUC1NNVJFNjFCOzIwMjItMDQtMTA7IjAxOjU3OjAyICI7MzUzOA=="/>
+        <attribute name="edited" value="RmVybmFuZGEgUm9jaGE7REVTS1RPUC1NNVJFNjFCOzIwMjItMDQtMTA7IjAyOjI5OjEzICI7MzszNjUw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, limite, resultado" type="Integer" array="False" size=""/>
+            <assign variable="numero" expression="0"/>
+            <assign variable="limite" expression="10"/>
+            <assign variable="resultado" expression="numero*9"/>
+            <while expression="numero&lt;limite">
+                <assign variable="numero" expression="numero +1"/>
+                <assign variable="resultado" expression="numero *9"/>
+                <output expression="&quot;9 x &quot; &amp; numero &amp;  &quot; &#233; igual a: &quot; &amp;resultado" newline="True"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
